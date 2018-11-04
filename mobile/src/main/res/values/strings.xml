@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="info">Ejemplo de notificaciones compatibles con Android Wear para
+        dispositivos con Android 1.6 en adelante</string>
+
+    <string-array name="reply_choices">
+        <item>Sí</item>
+        <item>No</item>
+        <item>Tal vez</item>
+        <item>A veces</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_mobile">Map</string>
+</resources>
