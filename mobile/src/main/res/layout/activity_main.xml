@@ -11,11 +11,11 @@
         android:layout_height="wrap_content"
         android:text="@string/info" />
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mapa"
-        android:onClick="abrirMapa"/>
+        android:onClick="abrirMapa"/>-->
 
     <!--<Button
         android:layout_width="match_parent"
@@ -26,42 +26,42 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="notificación con Mapa"
+        android:text="Mostrar tiendas en calle San Antonio y alrededores"
         android:onClick="notificacionMapa" />
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación con Accion solo reloj"
-        android:onClick="notificacionAccionSoloReloj"/>
+        android:onClick="notificacionAccionSoloReloj"/>-->
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación con texto largo"
-        android:onClick="notificacionTextoLargo"/>
+        android:onClick="notificacionTextoLargo"/>-->
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación con acción directa"
-        android:onClick="notificacionAccionDirecta"/>
+        android:onClick="notificacionAccionDirecta"/>-->
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación solo en el teléfono"
-        android:onClick="notificacionSoloTelefono"/>
+        android:onClick="notificacionSoloTelefono"/>-->
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación con respuesta por voz"
-        android:onClick="notificacionRespuestaVoz"/>
+        android:onClick="notificacionRespuestaVoz"/>-->
 
-    <Button
+    <!--<Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="notificación con Imágen"
-        android:onClick="notificacionImagen"/>
+        android:onClick="notificacionImagen"/>-->
 </LinearLayout>

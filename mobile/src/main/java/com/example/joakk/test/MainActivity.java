@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         Intent viewIntent = new Intent(this, MainActivity.class);
         PendingIntent viewPendingIntent = PendingIntent.getActivity(this, 0, viewIntent, 0);
 
-        //2Intent mapIntent = new Intent(Intent.ACTION_VIEW);
+        //Intent mapIntent = new Intent(Intent.ACTION_VIEW);
         Intent mapIntent = new Intent(this, MapsActivityMobile.class);
         Uri geoUri = Uri.parse("geo:-33.011994,-71.543508?z=15");
         mapIntent.setData(geoUri);
@@ -73,19 +73,18 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder notificationBuilder =
                 new NotificationCompat.Builder(this, canal)
                         .setSmallIcon(R.mipmap.ic_launcher)
-                        .setContentTitle("Notificación con Mapa")
-                        .setContentText("Esta es una notificación con Mapa de prueba")
-                        .setSubText("Toque la notificación para abrir una actividad de prueba o " +
-                                "toque el botón VER MAPA para abrir Google Maps")
+                        .setContentTitle("Let Me Take You To")
+                        .setContentText("Abrir Let Me Take You To para buscar tiendas cercanas")
+                        //.setSubText("Toque la notificación para abrir una actividad de prueba o " +"toque el botón VER MAPA para abrir Google Maps")
                         .setContentIntent(viewPendingIntent)
                         // En el teléfono aparecerá un botón en la notificación y en el reloj
                         // aparecerá un botón grande al presionar la notificación
-                        .addAction(R.drawable.ic_map_white, "Ver mapa", mapPendingIntent);
+                        .addAction(R.drawable.ic_map_white, "Abrir Aplicación", mapPendingIntent);
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
     }
 
-    public void notificacionAccionSoloReloj(View view) {
+    /*public void notificacionAccionSoloReloj(View view) {
         int notificationId = 3;
 
         Intent actionIntent = new Intent(this, MainActivity.class);
@@ -120,9 +119,9 @@ public class MainActivity extends AppCompatActivity {
         // el botón Ver Mapa no aparecerá en el reloj
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
-    }
+    }*/
 
-    public void notificacionTextoLargo(View view) {
+    /*public void notificacionTextoLargo(View view) {
         int notificationId = 4;
 
         Intent actionIntent = new Intent(this, MainActivity.class);
@@ -152,9 +151,9 @@ public class MainActivity extends AppCompatActivity {
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
 
-    }
+    }*/
 
-    public void notificacionAccionDirecta(View view) {
+    /*public void notificacionAccionDirecta(View view) {
         int notificationId = 5;
 
         Intent actionIntent = new Intent(this, MainActivity.class);
@@ -178,9 +177,9 @@ public class MainActivity extends AppCompatActivity {
                 .extend(new NotificationCompat.WearableExtender().addAction(action));
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
-    }
+    }*/
 
-    public void notificacionSoloTelefono(View view) {
+    /*public void notificacionSoloTelefono(View view) {
         int notificationId = 6;
         // Build intent for notification content
         Intent viewIntent = new Intent(this, MainActivity.class);
@@ -197,12 +196,12 @@ public class MainActivity extends AppCompatActivity {
                 .setLocalOnly(true); // Este método hace que la notificación no se muestre en el reloj
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
-    }
+    }*/
 
-    public void notificacionRespuestaVoz(View view) {
+    /*public void notificacionRespuestaVoz(View view) {
         int notificationId = 6;
 
-        String replyLabel = "¿A usted le gusta el futbol?";
+        String replyLabel = "¿Que producto desea buscar?";
         String[] replyChoices = getResources().getStringArray(R.array.reply_choices);
 
         RemoteInput remoteInput = new RemoteInput.Builder(EXTRA_VOICE_REPLY)
@@ -232,9 +231,9 @@ public class MainActivity extends AppCompatActivity {
                         .extend(new NotificationCompat.WearableExtender().addAction(action));
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
-    }
+    }*/
 
-    public void notificacionImagen(View view) {
+    /*public void notificacionImagen(View view) {
         int notificationId = 10;
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher_background);
 
@@ -249,7 +248,7 @@ public class MainActivity extends AppCompatActivity {
                         .setStyle(bigStyle);
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
-    }
+    }*/
 
 
 
