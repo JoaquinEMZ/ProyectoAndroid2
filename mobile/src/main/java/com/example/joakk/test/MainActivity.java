@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         .setContentIntent(viewPendingIntent)
                         // En el teléfono aparecerá un botón en la notificación y en el reloj
                         // aparecerá un botón grande al presionar la notificación
-                        .addAction(R.drawable.ic_map_white, "Abrir Aplicación", mapPendingIntent);
+                        .addAction(R.drawable.ic_map_white, "Abrir Mapa", mapPendingIntent);
 
         mostrarNotificacion(notificationId, notificationBuilder.build());
     }

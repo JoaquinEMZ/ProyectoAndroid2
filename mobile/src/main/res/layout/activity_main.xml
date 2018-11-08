@@ -23,6 +23,7 @@
         android:text="notificación simple"
         android:onClick="notificacionSimple"/>-->
 
+    <!--QUIERO PONER EL BOTON ABAJO-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

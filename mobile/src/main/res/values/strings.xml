@@ -3,8 +3,8 @@
     <string name="info">Let Me Take You To te permite encontrar las tiendas y almacenes que no aparezcan en Google Maps, formalmente.
                         Esto te permitirá encontrar las tiendas más cercanas de tu zona, sin tener que perder tanto tiempo buscando el producto tienda por tienda.
                         Si usted necesita alguna verdura o producto básico, como pasta dental o confort, al presionar el botón se abrirá la API de Google Maps
-                        y esta mostrará la zona, por el momento, de San Antonio, Viña del Mar. Apareceran unos marcadores señalando el lugar, o aproximado a este, de
-                        la tienda o almacen junto con los productos que ofrezcan.
+                        y esta mostrará la zona, por el momento, de San Antonio, Viña del Mar. Aparecerán unos marcadores señalando el lugar, o aproximado a este, de
+                        la tienda o almacén junto con los productos que ofrezcan.
                         </string>
 
     <string-array name="reply_choices">
